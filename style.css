@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(225, 100%, 94%);
+}
+.card {
+    width: 60vh;
+    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px;
+}
+.card .img_utama{
+    width: 60vh;
+    border-radius: 8px 8px 0px 0px;
+}
+.card .card-body .card-title{
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.card .card-body .card-text {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+    text-align: center;
+    margin-bottom: 18px;
+}
+.card .container-anual {
+    margin-top: 5px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .anul-img{
+    padding: 15px;
+}
+.card .text-anual{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .container-anual a {
+    text-decoration: none;
+    color:  hsl(275, 38%, 41%);
+    font-weight: bold;
+}
+.card .procced {
+    background-color: hsl(223, 100%, 42%);
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 20px;
+}
+.card .procced:hover{
+    background-color: hsl(269, 100%, 59%);
+}
+.card .cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 16px;
+}
+.attribution {
+    margin-top: 2%;
+}
